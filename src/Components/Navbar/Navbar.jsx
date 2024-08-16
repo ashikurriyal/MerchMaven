@@ -32,10 +32,10 @@ const Navbar = () => {
 
     const navItems = (
         <>
-            <li className={`font-semibold text-xl ${location.pathname === '/' ? 'border-b-4 border-teal-700' : ''}`}>
+            <li className={`font-semibold text-xl ${location.pathname === '/' ? 'border-b-4 border-teal-600' : ''}`}>
                 <Link to="/">Home</Link>
             </li>
-            {user && (
+            {/* {user && (
                 <>
                     <li className={`font-semibold text-xl ${location.pathname === '/allProperties' ? 'border-b-4 border-yellow-400' : ''}`}>
                         <Link to="/allProperties">All Properties</Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
                         <Link to="/dashboard">Dashboard</Link>
                     </li>
                 </>
-            )}
+            )} */}
         </>
     );
     return (
@@ -75,7 +75,7 @@ const Navbar = () => {
                     <>
                         {user?.photoURL ? (
                             <div className="tooltip tooltip-bottom avatar dropdown dropdown-end z-10" data-tip={user.displayName}>
-                                <div tabIndex={0} role="button" className="lg:w-12 w-8 rounded-full ring ring-warning ring-offset-base-100 ring-offset-2">
+                                <div tabIndex={0} role="button" className="lg:w-12 w-8 rounded-full ring ring-teal-600">
                                     <img src={user.photoURL} alt={user.displayName} />
                                 </div>
                                 <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-lg w-52">
