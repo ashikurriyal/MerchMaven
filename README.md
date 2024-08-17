@@ -64,7 +64,7 @@ Make sure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/your-username/merchmaven.git
 cd your-repo-name
 ```
 
@@ -110,7 +110,9 @@ Or using yarn:
 yarn dev
 ```
 
-Replace "your-username" and "your-repo-name" with your GitHub username and repository name. This section includes detailed steps for installing dependencies, setting up environment variables, and running the project.
+### Notes:
+- Replace `your-username` and `your-repo-name` with your GitHub username and repository name. This section includes detailed steps for installing dependencies, setting up environment variables, and running the project.
+- This `README.md` file is specifically tailored for setting up and running the frontend of my project.
 
 ## Build using
 - **JavaScript** 
