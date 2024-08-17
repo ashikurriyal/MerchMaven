@@ -1,0 +1,203 @@
+[
+    {
+      "productName": "Dell XPS 13",
+      "productImage": "https://example.com/images/dell_xps13.jpg",
+      "description": "A high-performance laptop with a stunning 13.3-inch display.",
+      "price": 1299.99,
+      "category": "Laptop",
+      "brand": "Dell",
+      "ratings": 4.5,
+      "creationDate": "2024-08-10T14:23:00Z"
+    },
+    {
+      "productName": "Apple MacBook Air M1",
+      "productImage": "https://example.com/images/macbook_air_m1.jpg",
+      "description": "Apple's thinnest and lightest notebook with the powerful M1 chip.",
+      "price": 999.99,
+      "category": "Laptop",
+      "brand": "Apple",
+      "ratings": 4.8,
+      "creationDate": "2024-08-12T10:15:00Z"
+    },
+    {
+      "productName": "Logitech MX Master 3",
+      "productImage": "https://example.com/images/logitech_mx_master_3.jpg",
+      "description": "Advanced wireless mouse with ergonomic design and customizable buttons.",
+      "price": 99.99,
+      "category": "Mouse",
+      "brand": "Logitech",
+      "ratings": 4.7,
+      "creationDate": "2024-08-14T08:35:00Z"
+    },
+    {
+      "productName": "Razer DeathAdder V2",
+      "productImage": "https://example.com/images/razer_deathadder_v2.jpg",
+      "description": "High-precision gaming mouse with a 20,000 DPI optical sensor.",
+      "price": 69.99,
+      "category": "Mouse",
+      "brand": "Razer",
+      "ratings": 4.6,
+      "creationDate": "2024-08-15T12:45:00Z"
+    },
+    {
+      "productName": "Corsair K95 RGB Platinum",
+      "productImage": "https://example.com/images/corsair_k95_rgb_platinum.jpg",
+      "description": "Mechanical gaming keyboard with customizable RGB backlighting.",
+      "price": 199.99,
+      "category": "Keyboard",
+      "brand": "Corsair",
+      "ratings": 4.8,
+      "creationDate": "2024-08-11T16:50:00Z"
+    },
+    {
+      "productName": "Apple Magic Keyboard",
+      "productImage": "https://example.com/images/apple_magic_keyboard.jpg",
+      "description": "Sleek and compact wireless keyboard designed for Apple devices.",
+      "price": 99.99,
+      "category": "Keyboard",
+      "brand": "Apple",
+      "ratings": 4.7,
+      "creationDate": "2024-08-13T09:25:00Z"
+    },
+    {
+      "productName": "Samsung Galaxy S21",
+      "productImage": "https://example.com/images/samsung_galaxy_s21.jpg",
+      "description": "Flagship smartphone with a stunning display and powerful performance.",
+      "price": 799.99,
+      "category": "Mobile",
+      "brand": "Samsung",
+      "ratings": 4.7,
+      "creationDate": "2024-08-09T14:40:00Z"
+    },
+    {
+      "productName": "Apple iPhone 13",
+      "productImage": "https://example.com/images/iphone_13.jpg",
+      "description": "Latest iPhone with advanced camera features and powerful A15 chip.",
+      "price": 899.99,
+      "category": "Mobile",
+      "brand": "Apple",
+      "ratings": 4.9,
+      "creationDate": "2024-08-14T13:20:00Z"
+    },
+    {
+      "productName": "Sony WH-1000XM4",
+      "productImage": "https://example.com/images/sony_wh_1000xm4.jpg",
+      "description": "Industry-leading noise-cancelling wireless headphones.",
+      "price": 349.99,
+      "category": "Headphones",
+      "brand": "Sony",
+      "ratings": 4.8,
+      "creationDate": "2024-08-08T17:05:00Z"
+    },
+    {
+      "productName": "Bose QuietComfort 35 II",
+      "productImage": "https://example.com/images/bose_qc35_ii.jpg",
+      "description": "Comfortable wireless headphones with excellent noise cancellation.",
+      "price": 299.99,
+      "category": "Headphones",
+      "brand": "Bose",
+      "ratings": 4.7,
+      "creationDate": "2024-08-10T15:35:00Z"
+    },
+    {
+      "productName": "Asus ROG Zephyrus G14",
+      "productImage": "https://example.com/images/asus_rog_zephyrus_g14.jpg",
+      "description": "Powerful gaming laptop with AMD Ryzen 9 processor and NVIDIA RTX 3060.",
+      "price": 1599.99,
+      "category": "Laptop",
+      "brand": "Asus",
+      "ratings": 4.6,
+      "creationDate": "2024-08-11T18:40:00Z"
+    },
+    {
+      "productName": "HP Spectre x360",
+      "productImage": "https://example.com/images/hp_spectre_x360.jpg",
+      "description": "Versatile 2-in-1 laptop with a 4K OLED display and powerful performance.",
+      "price": 1399.99,
+      "category": "Laptop",
+      "brand": "HP",
+      "ratings": 4.7,
+      "creationDate": "2024-08-12T14:30:00Z"
+    },
+    {
+      "productName": "Logitech G Pro X",
+      "productImage": "https://example.com/images/logitech_g_pro_x.jpg",
+      "description": "High-performance gaming headset with Blue VO!CE microphone technology.",
+      "price": 129.99,
+      "category": "Headphones",
+      "brand": "Logitech",
+      "ratings": 4.7,
+      "creationDate": "2024-08-13T19:20:00Z"
+    },
+    {
+      "productName": "HyperX Alloy FPS Pro",
+      "productImage": "https://example.com/images/hyperx_alloy_fps_pro.jpg",
+      "description": "Compact mechanical keyboard with Cherry MX switches for competitive gaming.",
+      "price": 89.99,
+      "category": "Keyboard",
+      "brand": "HyperX",
+      "ratings": 4.5,
+      "creationDate": "2024-08-09T12:55:00Z"
+    },
+    {
+      "productName": "Razer BlackWidow V3",
+      "productImage": "https://example.com/images/razer_blackwidow_v3.jpg",
+      "description": "Mechanical gaming keyboard with customizable RGB lighting.",
+      "price": 149.99,
+      "category": "Keyboard",
+      "brand": "Razer",
+      "ratings": 4.7,
+      "creationDate": "2024-08-14T11:10:00Z"
+    },
+    {
+      "productName": "Samsung Galaxy Z Fold 3",
+      "productImage": "https://example.com/images/samsung_galaxy_z_fold_3.jpg",
+      "description": "Innovative foldable smartphone with a 7.6-inch display.",
+      "price": 1799.99,
+      "category": "Mobile",
+      "brand": "Samsung",
+      "ratings": 4.6,
+      "creationDate": "2024-08-07T13:45:00Z"
+    },
+    {
+      "productName": "OnePlus 9 Pro",
+      "productImage": "https://example.com/images/oneplus_9_pro.jpg",
+      "description": "Flagship smartphone with Hasselblad camera and Snapdragon 888 processor.",
+      "price": 969.99,
+      "category": "Mobile",
+      "brand": "OnePlus",
+      "ratings": 4.7,
+      "creationDate": "2024-08-11T16:30:00Z"
+    },
+    {
+      "productName": "SteelSeries Rival 600",
+      "productImage": "https://example.com/images/steelseries_rival_600.jpg",
+      "description": "Gaming mouse with dual optical sensors for precise movement tracking.",
+      "price": 79.99,
+      "category": "Mouse",
+      "brand": "SteelSeries",
+      "ratings": 4.6,
+      "creationDate": "2024-08-15T10:25:00Z"
+    },
+    {
+      "productName": "JBL Quantum 800",
+      "productImage": "https://example.com/images/jbl_quantum_800.jpg",
+      "description": "Wireless gaming headset with immersive sound and active noise cancellation.",
+      "price": 199.99,
+      "category": "Headphones",
+      "brand": "JBL",
+      "ratings": 4.5,
+      "creationDate": "2024-08-08T11:55:00Z"
+    },
+    {
+      "productName": "Microsoft Surface Laptop 4",
+      "productImage": "https://example.com/images/microsoft_surface_laptop_4.jpg",
+      "description": "Sleek and powerful laptop with a 13.5-inch PixelSense touchscreen.",
+      "price": 1299.99,
+      "category": "Laptop",
+      "brand": "Microsoft",
+      "ratings": 4.6,
+      "creationDate": "2024-08-10T18:15:00Z"
+    }
+  ]
+  
