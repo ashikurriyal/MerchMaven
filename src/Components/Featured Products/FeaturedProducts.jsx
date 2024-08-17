@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
-// import FeatureCards from "./FeatureCards";
+import FeatureCards from "./FeatureCards";
 
 
 const FeaturedProducts = () => {
 
-    const [product, setProduct] = useState(1);
+    const [product, setProduct] = useState([]);
 
     useEffect(() => {
-            fetch('/data.json')
+            fetch('data.JSON')
             .then(res => res.json())
             .then(data => setProduct(data))
             
@@ -20,11 +20,11 @@ const FeaturedProducts = () => {
                 <p className="lg:text-xl text-lg font-normal">Discover our featured product and find your dream gadgets today. Browse through the latest listings and take advantage of the best deals on the market.</p>
             </div>
 
-            {/* <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-center gap-4">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-center gap-4">
                 {
-                    product.map(item => <FeatureCards></FeatureCards>) //slice(0,4)
+                    product.map(item => <FeatureCards key={item.id} item = {item}></FeatureCards>) //slice(0,4)
                 }
-            </div> */}
+            </div>
 
         </div>
     );
