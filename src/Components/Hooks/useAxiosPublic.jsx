@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const axiosPublic = axios.create({
-    baseURL:'https://merch-maven-server.vercel.app/'
+    baseURL:'https://merch-maven-server.vercel.app'
+    // baseURL:'http://localhost:5300'
 })
 
 const useAxiosPublic = () => {

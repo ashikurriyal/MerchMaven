@@ -198,6 +198,240 @@
       "brand": "Microsoft",
       "ratings": 4.6,
       "creationDate": "2024-08-10T18:15:00Z"
-    }
-  ]
+    },
+
+
+    {
+        "productName": "Google Pixel 7 Pro",
+        "productImage": "https://adminapi.applegadgetsbd.com/storage/media/large/Pixel-7-Pro-Snow-8255.jpg",
+        "description": "Google's flagship smartphone with an incredible camera and pure Android experience.",
+        "price": 899.99,
+        "category": "Mobile",
+        "brand": "Google",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T12:30:00Z"
+    },
+    {
+        "productName": "Acer Predator Helios 300",
+        "productImage": "https://computermania-bd.b-cdn.net/wp-content/uploads/Acer-Predator-Helios-300-PH315-3.jpg",
+        "description": "A powerful gaming laptop with Intel i7 processor and NVIDIA RTX 3070.",
+        "price": 1499.99,
+        "category": "Laptop",
+        "brand": "Acer",
+        "ratings": 4.6,
+        "creationDate": "2024-08-16T15:20:00Z"
+    },
+    {
+        "productName": "Apple iPad Pro 12.9",
+        "productImage": "https://adminapi.applegadgetsbd.com/storage/media/large/iPad-Pro-M2-2022---12.9inch-Space-Gray-6193.jpg",
+        "description": "High-performance tablet with Liquid Retina display and M1 chip.",
+        "price": 1099.99,
+        "category": "Tablet",
+        "brand": "Apple",
+        "ratings": 4.8,
+        "creationDate": "2024-08-16T13:45:00Z"
+    },
+    {
+        "productName": "Samsung Odyssey G9",
+        "productImage": "https://www.ryans.com/storage/products/main/samsung-odyssey-g9-49-inch-dqhd-super-wide-qled-11637847369.webp",
+        "description": "Super ultra-wide gaming monitor with 240Hz refresh rate and HDR1000.",
+        "price": 1399.99,
+        "category": "Monitor",
+        "brand": "Samsung",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T09:35:00Z"
+    },
+    {
+        "productName": "Asus ROG Strix G15",
+        "productImage": "https://www.globalbrand.com.bd/image/cache/catalog/ASUS%20LAPTOP/ROG-Strix-G15-(2022)-G513-800x800.jpg",
+        "description": "Gaming laptop with AMD Ryzen 7 processor and RTX 3050 graphics.",
+        "price": 1299.99,
+        "category": "Laptop",
+        "brand": "Asus",
+        "ratings": 4.6,
+        "creationDate": "2024-08-16T08:15:00Z"
+    },
+    {
+        "productName": "Apple Watch Series 8",
+        "productImage": "https://adminapi.applegadgetsbd.com/storage/media/large/Apple-Watch-Series-8-GPS+Cellular-Midnight-4171.jpg",
+        "description": "Advanced smartwatch with health monitoring and fitness tracking features.",
+        "price": 399.99,
+        "category": "Smartwatch",
+        "brand": "Apple",
+        "ratings": 4.8,
+        "creationDate": "2024-08-16T17:05:00Z"
+    },
+    {
+        "productName": "Bose SoundLink Revolve+",
+        "productImage": "https://adminapi.applegadgetsbd.com/storage/media/large/2636-74709.jpg",
+        "description": "Portable Bluetooth speaker with 360-degree sound and deep bass.",
+        "price": 299.99,
+        "category": "Speaker",
+        "brand": "Bose",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T14:50:00Z"
+    },
+    {
+        "productName": "HyperX Cloud II",
+        "productImage": "https://www.ryans.com/storage/products/main/hyperx-cloud-ii-wired-gun-metal-gaming-headphone-31643454057.webp",
+        "description": "Comfortable gaming headset with 7.1 virtual surround sound.",
+        "price": 99.99,
+        "category": "Headphones",
+        "brand": "HyperX",
+        "ratings": 4.6,
+        "creationDate": "2024-08-16T16:15:00Z"
+    },
+    {
+        "productName": "DJI Mavic Air 2",
+        "productImage": "https://www.ryans.com/storage/products/main/dji-mavic-air-2-11641975013.webp",
+        "description": "Compact drone with 4K camera and 34 minutes of flight time.",
+        "price": 799.99,
+        "category": "Drone",
+        "brand": "DJI",
+        "ratings": 4.8,
+        "creationDate": "2024-08-16T10:00:00Z"
+    },
+    {
+        "productName": "Microsoft Surface Pro 8",
+        "productImage": "https://www.ryans.com/storage/products/main/microsoft-surface-pro-8-intel-core-i5-1135g7-13-11647858528.webp",
+        "description": "2-in-1 tablet and laptop with a 13-inch touchscreen and detachable keyboard.",
+        "price": 1099.99,
+        "category": "Tablet",
+        "brand": "Microsoft",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T12:50:00Z"
+    },
+    {
+        "productName": "Canon EOS R6",
+        "productImage": "https://www.startech.com.bd/image/cache/catalog/camera/mirriorless/canon/eos-r6/eos-r6-body-01-500x500.webp",
+        "description": "Full-frame mirrorless camera with 20MP sensor and 4K video recording.",
+        "price": 2499.99,
+        "category": "Camera",
+        "brand": "Canon",
+        "ratings": 4.9,
+        "creationDate": "2024-08-16T16:35:00Z"
+    },
+    {
+        "productName": "GoPro Hero 10 Black",
+        "productImage": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/gopro/hero10/hero10-01-500x500.jpg",
+        "description": "Waterproof action camera with 5.3K video and HyperSmooth stabilization.",
+        "price": 399.99,
+        "category": "Camera",
+        "brand": "GoPro",
+        "ratings": 4.8,
+        "creationDate": "2024-08-16T09:20:00Z"
+    },
+    {
+        "productName": "Dell Alienware AW3420DW",
+        "productImage": "https://i.pcmag.com/imagery/reviews/002d7x6jGYwr31xfpdUACOH-1.fit_lim.size_1050x591.v1607441266.jpg",
+        "description": "34-inch curved gaming monitor with 120Hz refresh rate and G-Sync.",
+        "price": 1099.99,
+        "category": "Monitor",
+        "brand": "Dell",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T13:30:00Z"
+    },
+    {
+        "productName": "Apple AirPods Pro 2",
+        "productImage": "https://adminapi.applegadgetsbd.com/storage/media/large/AirPods-Pro-(2nd-generation)-with-USB%E2%80%90C-charging-4694.jpg",
+        "description": "Noise-cancelling wireless earbuds with improved sound and battery life.",
+        "price": 249.99,
+        "category": "Earbuds",
+        "brand": "Apple",
+        "ratings": 4.8,
+        "creationDate": "2024-08-16T11:45:00Z"
+    },
+    {
+        "productName": "Sony WH-1000XM5",
+        "productImage": "https://adminapi.applegadgetsbd.com/storage/media/large/5318-55349.jpg",
+        "description": "Industry-leading noise-cancelling headphones with 30-hour battery life.",
+        "price": 349.99,
+        "category": "Headphones",
+        "brand": "Sony",
+        "ratings": 4.9,
+        "creationDate": "2024-08-16T18:10:00Z"
+    },
+    {
+        "productName": "Sony Alpha a6400",
+        "productImage": "https://www.ubuy.com.bd/productimg/?image=aHR0cHM6Ly9pNS53YWxtYXJ0aW1hZ2VzLmNvbS9zZW8vU29ueS1hNjQwMC1JTENFLTY0MDBNLURpZ2l0YWwtY2FtZXJhLW1pcnJvcmxlc3MtMjQtMi1NUC1BUFMtQy00Sy0zMC1mcHMtNy01eC1vcHRpY2FsLXpvb20tRS0xOC0xMzVtbS1PU1MtbGVucy1XaS1GaS1ORkMtQmx1ZXRvb3RoLWJsYWNrX2UzY2U2YTU5LWFmYTMtNDhmNC05NmM0LTJiMzRlY2E4MzQ5OS5hY2VkZDVhNGQzMDBhNDlmZDhhMjU5MmY1ODlhOGNiMy5qcGVn.jpg",
+        "description": "Compact mirrorless camera with 24.2MP sensor and 4K video recording.",
+        "price": 999.99,
+        "category": "Camera",
+        "brand": "Sony",
+        "ratings": 4.8,
+        "creationDate": "2024-08-16T23:05:00Z"
+    },
+    {
+      "productName": "Garmin Fenix 6 Pro",
+      "productImage": "https://res.garmin.com/en/products/010-02410-12/v/cf-lg-a3a4b4b7-8b77-448c-8c58-8c202d1e390f-1.jpg",
+      "description": "Multisport GPS smartwatch with mapping, music, and heart rate monitoring.",
+      "price": 599.99,
+      "category": "Smartwatch",
+      "brand": "Garmin",
+      "ratings": 4.8,
+      "creationDate": "2024-08-16T21:50:00Z"
+    },
+    {
+        "productName": "Anker PowerCore 26800",
+        "productImage": "https://www.startech.com.bd/image/cache/catalog/power-bank/anker/powercore-plus-26800mah/powercore-plus-26800mah-500x500.jpg",
+        "description": "High-capacity portable charger with 3 USB ports and fast charging technology.",
+        "price": 59.99,
+        "category": "Power Bank",
+        "brand": "Anker",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T20:35:00Z"
+    },
+    {
+        "productName": "Dell UltraSharp U2720Q",
+        "productImage": "https://www.pchouse.com.bd/image/cache/catalog/000-Casing/0000A/dell-u2720q-27-inch-ultrasharp-4k-monitor-/dell-u2720q-27-inch-ultrasharp-4k-monitor-1-600x500h.jpg.webp",
+        "description": "27-inch 4K monitor with USB-C connectivity and exceptional color accuracy.",
+        "price": 629.99,
+        "category": "Monitor",
+        "brand": "Dell",
+        "ratings": 4.8,
+        "creationDate": "2024-08-18T09:00:00Z"
+    },
+    {
+        "productName": "ASUS ProArt PA32UCX",
+        "productImage": "https://www.techlandbd.com/image/catalog/Monitor/Asus/PA32UCX-PK/PA32UCX-PK-2.jpg",
+        "description": "32-inch 4K HDR monitor designed for professional color grading and photo editing.",
+        "price": 1799.99,
+        "category": "Monitor",
+        "brand": "ASUS",
+        "ratings": 4.8,
+        "creationDate": "2024-08-18T10:30:00Z"
+      },
+      {
+        "productName": "OnePlus 11T",
+        "productImage": "https://adminapi.applegadgetsbd.com/storage/media/large/OnePlus-11-(3)-4957.jpg",
+        "description": "Flagship smartphone with Snapdragon 8+ Gen 1 and a 120Hz AMOLED display.",
+        "price": 649.99,
+        "category": "Mobile",
+        "brand": "OnePlus",
+        "ratings": 4.8,
+        "creationDate": "2024-08-18T11:30:00Z"
+      },
+      {
+        "productName": "Xiaomi Mi 12 Pro",
+        "productImage": "https://diamu.com.bd/wp-content/uploads/2023/12/Xiaomi-12-Pro-5G.jpg",
+        "description": "High-end smartphone with a 6.73-inch AMOLED display and Snapdragon 8 Gen 1.",
+        "price": 749.99,
+        "category": "Mobile",
+        "brand": "Xiaomi",
+        "ratings": 4.6,
+        "creationDate": "2024-08-18T12:30:00Z"
+      },
+      {
+        "productName": "Samsung Galaxy A54",
+        "productImage": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-A54-5G-Graphite-7391.jpg",
+        "description": "Mid-range smartphone with a 6.4-inch AMOLED display and versatile camera setup.",
+        "price": 499.99,
+        "category": "Mobile",
+        "brand": "Samsung",
+        "ratings": 4.5,
+        "creationDate": "2024-08-18T13:30:00Z"
+      }
+
+      
+]
   

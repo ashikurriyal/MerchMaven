@@ -1,8 +1,9 @@
+import { Rating } from "@smastrom/react-rating";
 
+import "@smastrom/react-rating/style.css";
 import { Link } from "react-router-dom";
 
 const FeatureCards = ({ item }) => {
-
   const {
     productName,
     productImage,
@@ -10,61 +11,50 @@ const FeatureCards = ({ item }) => {
     price,
     category,
     ratings,
-    creationDate,
     brand,
   } = item;
   //   console.log(item)
 
- 
-
   return (
     <div>
-      
-      <div className=" max-w-sm md:h-[600px] bg-white border-2 border-black rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl">
-        <div className="flex justify-center">
-          <img className="rounded-t-lg h-60" src={productImage} alt="" />
+      <div className=" max-w-sm md:h-[520px] bg-white border-2 border-teal-600 rounded-lg shadow-teal-500 dark:bg-gray-800 dark:border-gray-700 shadow-inner">
+        <div className="flex justify-center ">
+          <img className="rounded-t-lg h-60 mt-1" src={productImage} alt="" />
         </div>
-        <div className="p-5">
+        <div className="p-5 space-y-5">
           <a href="#">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               {productName}
             </h5>
           </a>
+          <div className="flex items-center justify-between">
+            <p className=" text-2xl font-bold text-teal-700 mb-2">${price}</p>
+            <div className="flex gap-3">
+              <p className="text-gray-600 text-base mb-2 font-medium">
+                <span className="text-base font-medium text-teal-700 bg-white px-4 py-2 rounded-2xl border-2 border-teal-700 shadow-sm shadow-teal-600 hover:bg-gradient-to-r from-teal-500 to-teal-600 hover:text-black">
+                  {category}
+                </span>
+              </p>
+              <p className="text-gray-600 text-base mb-2 font-medium">
+                <span className="text-base font-medium text-teal-700 bg-white px-4 py-2 rounded-2xl border-2 border-teal-700 shadow-sm shadow-teal-600 hover:bg-gradient-to-r from-teal-500 to-teal-600 hover:text-black">
+                  {brand}
+                </span>
+              </p>
+            </div>
+          </div>
+
           <p className="text-gray-600 text-base mb-2 font-medium">
-            Location: {description}
+            {description}
           </p>
-          <p className="text-gray-600 text-base mb-2 font-medium">
-            Category:{" "}
-            <span className="text-base font-medium text-green-500">
-              {category}
-            </span>
-          </p>
-          <p className="text-gray-600 text-base mb-2 font-medium">
-            Brand:{" "}
-            <span className="text-base font-medium text-green-500">
-              {brand}
-            </span>
-          </p>
-          <p className="text-gray-600 text-base mb-2 font-medium">
-            Updated Date:{" "}
-            <span className="text-base font-medium text-green-500">
-              {creationDate}
-            </span>
-          </p>
-          <p className="text-gray-600 text-base mb-2 font-medium">
-            Ratings:{" "}
-            <span className="text-base font-medium text-green-500">
-              {ratings}
-            </span>
-          </p>
+
           <div className="flex justify-between items-center mt-6">
             <div className="">
-              <p className=" text-xl font-bold text-teal-600 mb-2">${price}</p>
+              <Rating style={{ maxWidth: 140 }} value={ratings} readOnly />
             </div>
             <div>
               <Link
                 to={``}
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black btn btn-warning btn-md"
+                className="inline-flex items-center px-3 py-2 text-base font-medium text-center text-black bg-gradient-to-r from-teal-500 to-teal-600 btn  btn-md hover:bg-white hover:text-black hover:border-2 hover:border-teal-600"
               >
                 <span className="inline-flex items-center">
                   {" "}

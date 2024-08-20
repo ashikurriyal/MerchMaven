@@ -1,5 +1,5 @@
 import banner1 from '../../assets/Banner1.jpg'
-import banner2 from '../../assets/Banner2.jpg'
+// import banner2 from '../../assets/Banner2.jpg'
 import banner3 from '../../assets/Banner3.jpg'
 
 // Import Swiper React components
@@ -35,12 +35,12 @@ const Banner = () => {
           
         </div>
       </SwiperSlide>
-      <SwiperSlide>
+      {/* <SwiperSlide>
         <div className='w-full lg:h-[calc(100vh-76px)]'>
           <img className='w-full lg:h-[calc(100vh-40px)]' src={banner2} alt="" />
           
         </div>
-      </SwiperSlide>
+      </SwiperSlide> */}
       <SwiperSlide>
         <div className='w-full lg:h-[calc(100vh-76px)]'>
           <img className='w-full lg:h-[calc(100vh-76px)]' src={banner3} alt="" />
